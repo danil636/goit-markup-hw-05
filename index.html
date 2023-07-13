@@ -474,13 +474,15 @@
             </div>
           </div>
 
-          <div class="modal-form-container">
+          <div class="modal-form-container-comment">
             <label class="modal-form-field" for="user-comment">
              <span class="modal-form-label">Comment</span>
             </label>
-            <div class="modal-form-container-input">
-             <input class="modal-form-input-comm" type="text" name="user_comment" id="user-comment" placeholder="Text input"/>
-            </div>
+            <textarea class="modal-form-textarea" name="user-comment" id="user-comment"  placeholder="Text input"></textarea>
+          </div>
+
+          <div class="modal-form-container-privacy">
+            <input class="modal-form-input-privacy" id="user-privacy" type="checkbox" value="true" name="user-privacy" visually-hidden />
           </div>
 
           <button type="submit" class="hero-btn">Send</button>
