@@ -789,6 +789,7 @@ button {
   margin-bottom: 18px;
   position: relative;
 }
+
 .modal-form-label {
 display: block;
 margin-bottom: 4px;
@@ -797,6 +798,7 @@ line-height: 1.17;
 letter-spacing: 0.04em;
 color: var(--customers-icons);
 }
+
 .modal-form-input {
   display: flex;
   width: 360px;
