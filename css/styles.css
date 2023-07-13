@@ -893,7 +893,11 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--customers-icons);
 }
 
-.modal-form-label-privacy {
+.modal-form-checkbox {
+
+}
+
+.modal-form-custom-checkbox {
   width: 16px;
   height: 16px;
   border: 1px solid var(--modal-style-color);
@@ -905,12 +909,13 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: transparent;
 }
 
+.modal-form-checkbox:checked + .modal-form-field-privacy .modal-form-custom-checkbox {
+background-color: var(--brand-links-hf);
+border: none;
+fill: var(--complementary-color);
+}
+
 .modal-form-field-link {
 color: var(--logo-color);
 }
 
-.visually-hidden:checked .modal-form-label-privacy {
-  background-color:var(--brand-links-hf);
-  border: none;
-  fill: var(--complementary-color);
-}
