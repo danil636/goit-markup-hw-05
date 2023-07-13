@@ -779,6 +779,11 @@ button {
 
 .modal-form { 
 }
+
+.modal-form-container {
+  margin-bottom: 8px;
+}
+
 .modal-form-field {
   display: block;
   margin-bottom: 18px;
