@@ -909,7 +909,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 color: var(--logo-color);
 }
 
-.modal-form-label-privacy  .visually-hidden:checked {
+.visually-hidden:checked .modal-form-label-privacy {
   background-color:var(--brand-links-hf);
   border: none;
   fill: var(--complementary-color);
