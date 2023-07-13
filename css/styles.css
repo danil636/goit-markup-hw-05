@@ -905,5 +905,9 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: transparent;
 }
 
+.modal-form-field-link {
+color: var(--logo-color);
+}
+
 .modal-form-btn {
 }
