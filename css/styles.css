@@ -558,6 +558,7 @@ color: var(--complementary-color);}
 }
 
 .footer-modal-parph {
+  margin-left: 80px;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -571,6 +572,7 @@ color: var(--complementary-color);}
 }
 
 .footer-modal-label {
+  display: flex;
   gap: 24px;
 }
 
@@ -583,6 +585,7 @@ color: var(--complementary-color);}
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding-left: 16px;
+  margin-left: 80px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: var(--text-color-bg);
