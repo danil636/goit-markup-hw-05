@@ -569,10 +569,6 @@ color: var(--complementary-color);}
 
 .footer-modal-form {
   display: flex;
-}
-
-.footer-modal-label {
-  display: flex;
   gap: 24px;
 }
 
